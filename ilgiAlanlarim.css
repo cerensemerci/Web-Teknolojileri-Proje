@@ -1,0 +1,71 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins';
+}
+
+.navbar {
+    color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .navbar li:last-child {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+}
+
+.btn {
+    position: absolute;
+    left: 45%;
+    margin-top: 40px;
+    width: 100px;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Card'lar arasında boşluk bırakmak için */
+}
+
+.card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    width: 20rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    flex-basis: 30%;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    margin-bottom: 0;
+}
